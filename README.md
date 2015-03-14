@@ -27,6 +27,11 @@ app.controller = function() {
 app.myView = function(ctrl) {
   // Theme data results.
 };
+
+app.view = function(ctrl) {
+  // Render pager.
+  return pagination.view(ctrl.pagination);
+};
 ```
 
 # Options
