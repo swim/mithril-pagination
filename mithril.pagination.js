@@ -77,9 +77,7 @@ pagination.controller = function(options) {
       this.currentPage(page);
     }.bind(this);
 
-  }.bind(this)).then(function() {
-    m.redraw();
-  })
+  }.bind(this));
 }
 
 /**
